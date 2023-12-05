@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    left: 45px;
+    bottom: 15px;
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    background-color: #180C0C;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ED413E;
+    padding-top: 40px;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.image{
+    width: 700px;
+    height: 370px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ED413E;
+}
+
+.text{
+    width: 700px;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bike{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.video{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #EFB786;
+}
+
+table{
+    width: 95%;
+    border-collapse: collapse;
+    height: 500px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+#brand{
+    background-color: #B2AB2E;
+}
+
+#power{
+    background-color: #EFB786;
+}
+
+#cilograms{
+    background-color: #B2AB2E;
+}
+
+#detaling{
+    background-color: #EFB786;
+}
+
+#motosport{
+    background-color: #B2AB2E;
+}
+
+th{
+    background-color: #EFB786;
+}
+
+
+
+.table{
+    padding-bottom: 150px;
+    background-color: #EFB786;
+    font-size: 20px;
+}
+
+#form {
+    font-family: Arial, sans-serif;
+    background-color: #180C0C;
+    color: #EFB786;
+    margin: 0;
+    padding: 500px 500px 100px 500px;
+    box-sizing: border-box;
+    padding-top: 60px;
+    
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ED413E;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #180C0C;
+    color: #ED413E;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+   
+    position: relative;
+    top: 32px;
+    left: 230px;
+}
+
+
+button {
+    background-color: #ED413E;
+    color: #180C0C;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF5A57;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.moto_cards .card{
+    width: 370px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 0 15px 0 #999;
+}
+
+.card_info {
+    padding: 25px 25px 50px 25px;
+    font-size: 1rem;
+  }
+  
+  .card_info h1 {
+    font-size: 1.25rem;
+    margin: 0 auto;
+  }
+  
+  .card_info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .cards_text{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position: relative;
+    top: 35px;
+  }
+
+  hr{
+    width: 56%;
+    height: 2px;
+    background-color: black;
+    margin: 35px auto;
+  }
+
+  .cards{
+    padding-bottom: 150px;
+    background-color: #B2AB2E;
+  }
+
+  .cards_wrapper{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+.cards_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more:hover{
+    background-color: #EFB786;
+    box-shadow: 0 0 25px 0 red;
+}
+
+ .more{
+    background-color: #B2AB2E;
+   
+}
+footer{
+    height: 500px;
+    background-color: black;
+    color: white ;
+}
+.footer_wrapper{
+    width: 75%;
+    margin: 0 auto;
+    padding: 75px 0 15px 0;
+}
+
+.first_div{
+    width: 50%;
+}
+
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+    gap: 40px;
+}
+
+.third_div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+    gap: 40px;
+
+}
+
+footer a{
+    color: white;
+}
+
+.assylbek{
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
